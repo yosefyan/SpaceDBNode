@@ -39,7 +39,7 @@ passport.use(
           data: {
             name: {
               first: profile.name.givenName,
-              last: profile.name.familyName,
+              last: profile.name.familyName || "N/A",
             },
             phone: "0526714265",
             email: profile.emails[0].value,
@@ -56,7 +56,7 @@ passport.use(
             },
           },
         });
-        return done(null);
+        return done(null, "done");
       }
     }
   )
