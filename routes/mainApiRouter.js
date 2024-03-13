@@ -2,7 +2,6 @@ import express from "express";
 import { mainApiRoutes, mainAuthRoutes } from "../constants/mainRoutes.js";
 import errorCreater from "../helpers/errorCreater.js";
 import {
-  authRegex,
   cardsRegex,
   cardsUsersRegex,
   usersRegex,
