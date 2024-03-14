@@ -53,6 +53,11 @@ app.use((req, res, next) => {
 (async () => {
   await connectToDB;
   await initialUsers();
+  console.log(
+    chalk.yellow.bold(
+      `Server in ${process.env.NODE_ENV} - Running | Port ${PORT}`
+    )
+  );
   await app.listen(PORT, () =>
     log(
       chalk.yellow.bold(
