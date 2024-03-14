@@ -40,8 +40,6 @@ https://documenter.getpostman.com/view/27611306/2sA2xh3src#ef8176e4-dbe3-4689-a6
 17. **nodemon**: Utility for automatically restarting Node.js applications when file changes are detected.
 18. **passport**: Authentication middleware for Node.js, used for authenticating requests.
 19. **passport-google-oauth2**: Passport strategy for authenticating with Google using OAuth 2.0.
-20. **uuid**: Library for generating universally unique identifiers (UUIDs).
-
     
 ## License
 
